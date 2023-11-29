@@ -9,7 +9,7 @@ const Styles=StyleSheet.create({
     container:{
         flex:1,
         backgroundColor:Colors.White,
-        paddingTop:Platform.OS==="ios"?rh(5):rh(0.5),
+        paddingTop:Platform.OS==="ios"?rh(5):rh(0),
     },
     profileSect:{
         alignItems:"flex-end",
@@ -19,7 +19,6 @@ const Styles=StyleSheet.create({
         height:rh(12),
         paddingHorizontal:rw(3),
         justifyContent:"center",
-        // paddingVertical:rh(2)
     },
     headingSect:{
         flexDirection:"row",
@@ -48,30 +47,20 @@ const Styles=StyleSheet.create({
     },
     stepSection:{
         marginVertical:rh(1.5),
-        // borderWidth:1,
-        // alignItems:"center"
-        justifyContent:"center",
+        // justifyContent:"center",
+        justifyContent:"flex-start",
         width:rw(100)
-        // height:rh(4)
     },
     videoSect:{
-        // borderWidth:1,
         height:rh(10),
-        // paddingVertical:rh(1.5),
-        // flexDirection:"row",
         justifyContent:"center",
-        // borderWidth:1
     },
     imageBtn:{
         width:rw(18),
         height:rh(8),
-        // borderWidth:1,
         paddingHorizontal:rw(2),
-        // marginHorizontal:rw(2),
-        // paddingVertical:rh(2),
         marginRight:rw(2.5),
         alignItems:"center",
-        // justifyContent:"flex-start",
         borderRadius:5
     },
     image:{
@@ -90,8 +79,6 @@ const Styles=StyleSheet.create({
     },
     shareBtn:{
         flexDirection:"row",
-        // justifyContent:"flex-start",
-        // borderWidth:1
         justifyContent:"space-between",
         width:rw(30)
     },
@@ -133,7 +120,6 @@ const Styles=StyleSheet.create({
         borderRadius:5,
         backgroundColor:Colors.Background,
         paddingVertical:rh(1),
-        // paddingHorizontal:rw(1.5)
       },
       signText:{
         textAlign:"center",
@@ -142,7 +128,6 @@ const Styles=StyleSheet.create({
         fontWeight:"700"
       },
       signContainer:{
-        // backgroundColor:Colors.SignSectBG,
         height:rh(34),
         borderRadius:10,
         paddingVertical:rh(1.5),
@@ -193,8 +178,6 @@ const Styles=StyleSheet.create({
       },
       signature:{
          flex: 1,
-    // borderColor: '#000033',
-    // borderWidth: 1,
       }
    
 
